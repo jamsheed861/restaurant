@@ -1,0 +1,114 @@
+body{
+ width:auto;
+}
+
+.img {
+  height: 8rem;
+  width: 9rem;
+   margin-left: 1rem;
+  margin-top: 2rem;
+}
+.img:hover{
+  height:7.5rem;
+  width:8.5rem;
+}
+.pic:hover {
+ 
+  
+  background-color: #fff;
+  cursor: pointer;
+}
+.pic {
+  display: flex;
+  height:11rem;
+  width: 20rem;
+  margin: 10px;
+  box-shadow: 10px 10px 40px black;
+  border-radius:10px ;
+}
+.name {
+  
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-left: 2rem;
+ 
+  
+  font-size:medium;
+  color: rebeccapurple;
+  
+  
+  
+}
+.button{
+
+  height:3rem;
+  width: 6rem;
+ margin-top: 15px;
+  margin-left: 3px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: greenyellow;
+}
+.button:hover{
+  background-color: rgb(110, 67, 167);
+ 
+  color: whitesmoke;
+}
+
+
+
+.home {
+  
+  display: flex;
+  flex-wrap: wrap;
+  padding: 7px;
+  justify-content: center;
+}
+.title {
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+.menu{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(219, 20, 20);
+  margin-bottom: 2rem;
+}
+.btn{
+  background-color:#009B77;
+  color:rgb(200, 194, 206);
+  width:6rem;
+  height: 3rem;
+  font-size: larger;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.btn:hover{
+  color:white;
+  background-color: rgb(61, 166, 173);
+}
+.btn:focus{
+  background-color: blue;
+  color: rgb(187, 179, 179);
+}
+.card{
+  display: flex;
+  justify-content: center;
+  color:blue;
+  font-weight: 200;
+  font-size: x-large;
+ 
+}
+hr{
+  height: 2px;
+  width: 15rem;
+  margin-bottom: 10px;
+  background-color: blueviolet;
+  box-shadow: 2px 3px 7px yellowgreen;
+}
+
+
